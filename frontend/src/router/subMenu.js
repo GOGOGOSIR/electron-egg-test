@@ -20,7 +20,7 @@ export default {
 			title: 'socket服务',
 			pageName: 'FrameworkSocketSocketServer',
 			params: {}
-		},    
+		},
 		'menu_103' : {
 			icon: 'profile',
 			title: 'json数据库',
@@ -38,19 +38,19 @@ export default {
 			title: '任务',
 			pageName: 'FrameworkJobsIndex',
 			params: {}
-		},				
+		},
 		'menu_106' : {
 			icon: 'profile',
 			title: '自动更新',
 			pageName: 'FrameworkUpdaterIndex',
 			params: {}
-		},    
+		},
 		'menu_107' : {
 			icon: 'profile',
 			title: '软件调用',
 			pageName: 'FrameworkSoftwareIndex',
 			params: {}
-		},		
+		},
     'menu_108' : {
 			icon: 'profile',
 			title: 'java',
@@ -62,8 +62,8 @@ export default {
 			title: '测试',
 			pageName: 'FrameworkTestApiIndex',
 			params: {}
-		},                                             
-	},	
+		},
+	},
   os: {
 		'menu_100' : {
 			icon: 'profile',
@@ -112,15 +112,15 @@ export default {
 			title: '图片',
 			pageName: 'OsFilePic',
 			params: {}
-		}, 
-	},  
+		},
+	},
 	hardware: {
 		'menu_100' : {
       icon: 'profile',
       title: '打印机',
       pageName: 'HardwarePrinterIndex',
       params: {}
-		}                                               
+		}
   },
   effect: {
     'menu_100' : {
@@ -134,6 +134,12 @@ export default {
       title: '登录',
       pageName: 'EffectLoginIndex',
       params: {}
-    }                                                
-  } 	
+    },
+    'menu_120' : {
+      icon: 'profile',
+      title: 'M3U8-WEB',
+      pageName: 'EffectM3U8Web',
+      params: {}
+    }
+  }
 }
