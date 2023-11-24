@@ -6,6 +6,7 @@ import './assets/global.less';
 import './assets/theme.less';
 import components from './components/global';
 import Router from './router/index';
+import './server/axios'
 
 const app = createApp(App)
 app.config.productionTip = false

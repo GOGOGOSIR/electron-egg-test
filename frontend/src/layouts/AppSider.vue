@@ -9,16 +9,16 @@
       <div class="logo">
         <img class="pic-logo" src="~@/assets/logo.png">
       </div>
-      <a-menu 
-        class="menu-item" 
-        theme="light" 
+      <a-menu
+        class="menu-item"
+        theme="light"
         mode="inline"
         :selectedKeys="[current]"
         @click="menuHandle"
       >
         <a-menu-item v-for="(menuInfo, index) in menu" :key="index">
           <icon-font :type="menuInfo.icon" />
-          {{ menuInfo.title }} 
+          {{ menuInfo.title }}
         </a-menu-item>
       </a-menu>
     </a-layout-sider>
@@ -36,7 +36,7 @@ export default {
   data() {
     return {
       collapsed: true,
-      current: 'menu_1',
+      current: 'menu_4',
       menu: {
         'menu_1' : {
           icon: 'icon-fengche',
@@ -63,7 +63,7 @@ export default {
           title: '特效',
           pageName: 'Effect',
           params: {},
-        },            
+        },
       }
     };
   },

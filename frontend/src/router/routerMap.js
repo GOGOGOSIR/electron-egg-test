@@ -141,7 +141,7 @@ const constantRouterMap = [
         name: 'Effect',
         component: () => import('@/layouts/Menu.vue'),
         props: { id: 'effect' },
-        redirect: { name: 'EffectVideoIndex' },
+        redirect: { name: 'EffectM3U8Web' },
         children: [
           {
             path: '/effect/video/index',
