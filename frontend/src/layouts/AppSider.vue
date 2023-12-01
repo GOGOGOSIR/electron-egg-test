@@ -1,5 +1,5 @@
 <template>
-  <a-layout id="app-layout-sider">
+  <!-- <a-layout id="app-layout-sider">
     <a-layout-sider
       v-model="collapsed"
       theme="light"
@@ -27,7 +27,9 @@
         <router-view />
       </a-layout-content>
     </a-layout>
-  </a-layout>
+  </a-layout> -->
+  11
+  <router-view />
 </template>
 <script>
 
